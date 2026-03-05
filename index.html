@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Chủ đề 4 - Bài 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="modal">
+    <div class="modal-header">
+        <span>ĐĂNG KÝ</span>
+        <span class="close">×</span>
+    </div>
+
+    <form class="modal-body">
+        <div class="row">
+            <div class="col">
+                <label>Họ:</label>
+                <input type="text">
+            </div>
+            <div class="col">
+                <label>Tên:</label>
+                <input type="text">
+            </div>
+        </div>
+
+        <label>Chọn giới tính:</label>
+        <div class="gender">
+            <label><input type="radio" name="gt"> Nam</label>
+            <label><input type="radio" name="gt"> Nữ</label>
+        </div>
+
+        <label>Email:</label>
+        <div class="email-group">
+            <input type="text" placeholder="Nhập Email">
+            <span class="email-suffix">@muasamonline.com.vn</span>
+        </div>
+
+        <label>Mật khẩu:</label>
+        <input type="password" placeholder="Nhập mật khẩu">
+
+        <label>Quê quán:</label>
+        <select>
+            <option>Chọn quê quán</option>
+            <option>Hà Nội</option>
+            <option>TP.HCM</option>
+            <option>Đà Nẵng</option>
+        </select>
+
+        <label>Hình đại diện:</label>
+        <input type="file">
+
+        <div class="policy">
+            <input type="checkbox">
+            <span>Tôi đồng ý chính sách của website</span>
+        </div>
+
+        <button type="submit">Đăng ký</button>
+    </form>
+</div>
+
+</body>
+</html>
